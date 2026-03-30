@@ -66,11 +66,11 @@
             <div class="grid-row">
                 <div class="form-group">
                     <label>Technologies</label>
-                    <input type="text" name="skills" placeholder="Go, SQL, Docker...">
+                    <input type="text" name="skills" placeholder="Git, SQL, Docker...">
                 </div>
                 <div class="form-group">
                     <label>Languages</label>
-                    <input type="text" name="languages" placeholder="English, Tagalog...">
+                    <input type="text" name="languages" placeholder="Python, Go...">
                 </div>
             </div>
         </div>
