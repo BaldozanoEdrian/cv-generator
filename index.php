@@ -52,7 +52,6 @@
                 <textarea name="summary"></textarea>
             </div>
             
-            
             <div class="grid-row">
                 <div class="form-group">
                     <label>Work Experience</label>
