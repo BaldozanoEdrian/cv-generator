@@ -36,12 +36,12 @@ $skillsArray = array_map('trim', explode(',', $skills));
         <h1><?php echo $fullname; ?></h1>
         <div class="job-title"><?php echo $title ?: 'Professional'; ?></div>
         <div class="contact-info">
-            <span>📧 <?php echo $email; ?></span>
+            <span><?php echo $email; ?></span>
             <?php if($phone): ?>
-                <span>📞 <?php echo $phone; ?></span>
+                <span><?php echo $phone; ?></span>
             <?php endif; ?>
             <?php if($address): ?>
-                <span>📍 <?php echo $address; ?></span>
+                <span><?php echo $address; ?></span>
             <?php endif; ?>
         </div>
     </div>
@@ -80,14 +80,14 @@ $skillsArray = array_map('trim', explode(',', $skills));
             <?php if(!empty($education)): ?>
             <div class="section">
                 <h2>🎓 Education</h2>
-                <div><?php echo $education; ?></div>
+                <div class="content-box"><?php echo $education; ?></div>
             </div>
             <?php endif; ?>
 
             <?php if(!empty($experience)): ?>
             <div class="section">
                 <h2>💼 Work Experience</h2>
-                <div><?php echo $experience; ?></div>
+                <div class="content-box"><?php echo $experience; ?></div>
             </div>
             <?php endif; ?>
         </div>
